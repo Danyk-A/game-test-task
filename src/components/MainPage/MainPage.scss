@@ -1,0 +1,18 @@
+.main {
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+}

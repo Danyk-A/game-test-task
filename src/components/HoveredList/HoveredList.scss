@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.hovered-list {
+  &__elements {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  &__wrapper {
+    background-color: $mainColor;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1.5px solid $darkColor;
+  }
+}

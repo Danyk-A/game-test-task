@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.button {
+  height: 33px;
+  width: 145px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+
+  transition: color 0.3s, background-color 0.3s;
+
+  &--valid {
+    background-color: $darkColor;
+    border: 1.5px solid $darkColor;
+    color: $backgroundColor;
+
+    &:hover {
+      cursor: pointer;
+      color: $darkColor;
+      background-color: $backgroundColor;
+    }
+  }
+
+  &--disabled {
+    background-color: #1b1a1689;
+    border: 1.5px solid #1e1d17be;
+    color: $backgroundColor;
+  }  
+}

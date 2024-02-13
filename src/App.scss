@@ -1,0 +1,19 @@
+@import './styles/variables.scss';
+
+.page {
+  background-color: $backgroundColor;
+  font-family: 'Nunito', sans-serif;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+}
